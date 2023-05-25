@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ch15-webapi-rest-graphql-demo-20230525"
+version = "0.1.0"
+description = ""
+authors = ["Kuroi_Cc <chenchengmikuro@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "ch15_webapi_rest_graphql_demo_20230525" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+jupyter = "^1.0.0"
+pillow = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
